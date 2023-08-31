@@ -26,8 +26,8 @@ const commonResponse = function (data, error) {
 })*/
 
 const mysqlCon = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
+    host: 'fdaa:2:cafd:a7b:80:292d:8642:2',
+    port: '3306',
     user: 'root',
     password: '1234',
     database: 'mbanking'
