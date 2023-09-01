@@ -15,7 +15,7 @@ API endpoints:
 4. Delete transaction data by id
 
 ## Programming Language
-JavaScript
+1. JavaScript
 
     JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language
 
