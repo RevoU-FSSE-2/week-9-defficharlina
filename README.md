@@ -68,7 +68,7 @@ API endpoints:
 
 ```
     const mysqlCon = mysql.createConnection({
-    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', 
+    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', //setelah deploy, host:'localhost' diganti dengan ips private
     port: '3306',
     user: 'root',
     password: '1234',
