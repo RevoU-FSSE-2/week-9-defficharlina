@@ -65,13 +65,15 @@ JavaScript
 2. Create connection with MySQL and create database mbanking, table user, table transaction
 
 #### Create connection
+
 ```const mysqlCon = mysql.createConnection({
     host: 'fdaa:2:cafd:a7b:80:292d:8642:2', //setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
     port: '3306',
     user: 'root',
     password: '1234',
     database: 'mbanking'
-})```
+})
+```
 
   <p align="center">
     <img src="images/connect mysql.JPG" width="600">
@@ -89,7 +91,7 @@ JavaScript
 
 #### Create SQL Query
 
-```        const dbData = await query(`select
+    ```const dbData = await query(`select
         u.id,
         u.name, 
         u.adress,  
@@ -105,7 +107,8 @@ JavaScript
         u.id`, id)
 
         const userBalance = dbData[0].total_income - dbData[0].total_expense
-        dbData[0].balance = userBalance```
+        dbData[0].balance = userBalance
+        ```
 
 #### GET /user/:id
 
