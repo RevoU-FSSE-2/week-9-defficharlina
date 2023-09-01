@@ -110,7 +110,7 @@ API endpoints:
 
         const userBalance = dbData[0].total_income - dbData[0].total_expense
         dbData[0].balance = userBalance
-        ```
+    ```
 
 #### GET /user/:id
 
