@@ -66,7 +66,8 @@ API endpoints:
 
 #### Create connection
 
-```const mysqlCon = mysql.createConnection({
+```
+    const mysqlCon = mysql.createConnection({
     host: 'fdaa:2:cafd:a7b:80:292d:8642:2', 
     port: '3306',
     user: 'root',
