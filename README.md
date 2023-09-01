@@ -17,7 +17,7 @@ API endpoints:
 ## Programming Language
 JavaScript
 
-    JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc
+    JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language
 
 ## Dev Environment Setup
 1. GitHub
@@ -67,7 +67,8 @@ JavaScript
 #### Create connection
 
 ```const mysqlCon = mysql.createConnection({
-    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', //setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
+//setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
+    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', 
     port: '3306',
     user: 'root',
     password: '1234',

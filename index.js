@@ -26,7 +26,8 @@ const commonResponse = function (data, error) {
 })*/
 
 const mysqlCon = mysql.createConnection({
-    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', //setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
+//setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
+    host: 'fdaa:2:cafd:a7b:80:292d:8642:2', 
     port: '3306',
     user: 'root',
     password: '1234',
