@@ -92,7 +92,8 @@ API endpoints:
 
 #### Create SQL Query
 
-    ```const dbData = await query(`select
+    ```
+        const dbData = await query(`select
         u.id,
         u.name, 
         u.adress,  
