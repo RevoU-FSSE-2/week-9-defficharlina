@@ -15,7 +15,7 @@ API endpoints:
 4. Delete transaction data by id
 
 ## Programming Language
-JavaScript
+1. JavaScript
 
     JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language
 
@@ -67,7 +67,6 @@ JavaScript
 #### Create connection
 
 ```const mysqlCon = mysql.createConnection({
-//setelah deploy host: 'localhost' diganti ips private saat proses deploy ke fly.io
     host: 'fdaa:2:cafd:a7b:80:292d:8642:2', 
     port: '3306',
     user: 'root',
